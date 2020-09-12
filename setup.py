@@ -134,22 +134,22 @@ setup(
 
     #install_requires = ['unicodecsv', 'xmltodict'],
     install_requires = [
-        'six>=1.10.0, <2',
-        'future>=0.16, <1',        
-        'python-dateutil>=2.5.3, <3',
-        'numpy>=1.10, <2',
-        'scipy>=0.15.1, <1',
-        'cython>=0.23.4, <1',
-        'genometools>=0.2, <0.3',
-        'configparser>=3.5, <4',
+        'six>=1.10.0',
+        'future>=0.16',        
+        'python-dateutil>=2.5.3',
+        'numpy>=1.10',
+        'scipy>=0.15.1',
+        'cython>=0.23.4',
+        'genometools>=0.2',
+        'configparser>=3.5',
         # 'future >= future-0.15.3.dev0, <1',
     ],
 
     extras_require = {
         'test': [
-            'pytest>=2.8.5, <3',
-            'pytest-cov>=2.2.1, <3',
-            'requests>=2.10.0, <3',
+            'pytest>=2.8.5',
+            'pytest-cov>=2.2.1',
+            'requests>=2.10.0',
         ],
     #        'docs': ['sphinx','sphinx-rtd-theme','sphinx-argparse','mock']
     },
